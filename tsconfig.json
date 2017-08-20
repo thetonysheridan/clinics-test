@@ -1,0 +1,32 @@
+{
+  "buildOnSave": false,
+  "compileOnSave": false,
+  "compilerOptions": {
+      "alwaysStrict": true,
+      "declaration": false,
+      "experimentalDecorators": true,
+      "forceConsistentCasingInFileNames": true,
+      "importHelpers": false,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noLib": false,
+      "noUnusedLocals": true,
+      "noUnusedParameters": false,
+      "removeComments": true,
+      "target": "es6",
+      "types": [
+        "chai",
+        "chai-http",
+        "express",
+        "mocha",
+        "node"
+      ]
+  },
+  "include": [
+      "src/**/*.ts"
+  ]
+}
